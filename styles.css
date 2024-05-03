@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@400;500;700;800&display=swap");
+
+:root {
+  --white-color: hsl(0, 0%, 100%);
+  --gray-color: hsl(0, 0%, 50%);
+  --black-color: hsl(0, 0%, 7%);
+  --primary-color: hsl(47, 88%, 63%);
+  --primary-font: "Figtree", sans-serif;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+  --font-weight-extra-bold: 800;
+  --card-width: 384px;
+  --card-height: 522px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  background-color: var(--primary-color);
+  font-family: var(--primary-font);
+  font-weight: var(--font-weight-regular);
+  width: 100%;
+  height: 100vh;
+  padding-top: 218.5px;
+}
+
+main {
+  width: var(--card-width);
+  height: var(--card-height);
+  margin: 0 auto;
+  background-color: var(--white-color);
+  border-radius: 20px;
+  padding: 24px;
+  box-shadow: 8px 8px 0 0 var(--black-color);
+  display: grid;
+  grid-gap: 24px;
+}
+
+.blog-img-wrapper img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.blog-owner-block {
+  width: 129px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+}
+.blog-owner-block img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.blog-owner-block p {
+  font-weight: var(--font-weight-extra-bold);
+  font-size: 14px;
+  line-height: 1.5rem;
+}
+
+.attribution {
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  font-size: 11px;
+  text-align: center;
+  padding: 1rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

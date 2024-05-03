@@ -1,0 +1,25 @@
+{
+  "name": "blog-preview-card-main",
+  "version": "1.0.0",
+  "description": "Challenge to create blog preview card to match the design as much as possible",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --port=8080 --host=localhost",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srijanss/blog-preview-card.git"
+  },
+  "keywords": [
+    "blog",
+    "preview",
+    "card"
+  ],
+  "author": "Srijan Manandhar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/srijanss/blog-preview-card/issues"
+  },
+  "homepage": "https://github.com/srijanss/blog-preview-card#readme"
+}
