@@ -135,7 +135,7 @@ main {
   color: hsl(228, 45%, 44%);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 375px) {
   main {
     padding-top: 155px;
   }
