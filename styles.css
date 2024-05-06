@@ -59,6 +59,7 @@ main {
   display: grid;
   grid-gap: 24px;
   cursor: pointer;
+  border: 1px solid var(--black-color);
 }
 .blog-preview-card:hover {
   box-shadow: 16px 16px 0 0 var(--black-color);
@@ -108,10 +109,9 @@ main {
   color: var(--gray-color);
 }
 .author {
-  width: 129px;
   height: 32px;
   display: grid;
-  grid-template-columns: 32px 1fr;
+  grid-template-columns: 32px auto;
   grid-gap: 12px;
   align-items: center;
 }
